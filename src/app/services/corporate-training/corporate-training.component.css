@@ -1,0 +1,24 @@
+.back1 {
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+table, th, td{
+  padding: 20px;
+  table-layout: fixed;
+  width: 100%;
+  border-radius: 15px;
+
+}
+
+.back1:hover
+{ background-color:rgb(250, 251, 252);
+
+color:white;
+}
+.row:hover
+{ background-color:rgb(107, 121, 248);
+  padding: 40px;
+  border-radius: 20px;
+color:white;
+}

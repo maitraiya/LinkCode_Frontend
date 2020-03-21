@@ -1,0 +1,95 @@
+<div class="container-fluid cont" style="margin:0px; width:100%">
+  <div class="row">
+    
+    <div class="d-xs-block d-sm-block d-md-none d-xs-none">
+      <nav class="navbar navbar-expand-lg  cont">
+        <div class="col-6">
+          <div class="wrapper">
+            <button nz-button nzType="primary" (click)="toggleCollapsed()">
+              <i class="fa fa-bars" [ngClass]="isCollapsed ? 'menu-unfold' : 'menu-fold'"></i>
+            </button>
+            
+          </div>
+        </div>
+        <div class="col-6">
+          <a class="navbar-brand-xs" [routerLink]="['/home']">
+            <img class="brand-xs" src="../../assets/images/logo-png-cropped.png" alt="">
+          </a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{'show':navbarOpen}" >
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+  <div class="row ">
+    <div class="d-none d-md-block d-lg-block d-sm-none col-12">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" [routerLink]="['/home']">
+          <img src="../../assets/images/logo-png-cropped.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" (click)="toggleNavbar()" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{'show':navbarOpen}" >
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item " >
+              <a class="nav-link"  [routerLink]="['/home']" >Home </a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" [routerLink]="['/services']">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  " [routerLink]="['/contact']">Contact Us</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/about']">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav> 
+    </div>
+    
+  </div>
+
+  <div class="row">
+    <ul *ngIf="!isCollapsed" nz-menu nzMode="inline" nzTheme="light" [nzInlineCollapsed]="isCollapsed">
+      <!-- <li nz-menu-item nz-tooltip nzPlacement="right" [nzTitle]="isCollapsed ? 'Navigation One' : ''" nzSelected>
+        <i nz-icon nzType="mail"></i>
+        <span>Navigation One</span>
+      </li> -->
+      <li nz-submenu nzTitle="Explore" nzIcon="appstore">
+        <ul>
+          <li hred nz-menu-item [routerLink]="['/home']">Home</li>
+         
+          <li nz-submenu nzTitle="Services">
+            <ul>
+              <li nz-menu-item>Corporate Training</li>
+              <li nz-menu-item>Corporate Workshop</li>
+              <li nz-menu-item>Software Development</li>
+              <li nz-menu-item>Internship</li>
+              <li nz-menu-item>Project Consulting</li>
+            </ul>
+            
+          </li>
+          <li hred nz-menu-item [routerLink]="['/contact']">Contact Us</li>
+          <li hred nz-menu-item [routerLink]="['/about']">About Us</li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Navigation Three" nzIcon="setting">
+        <ul>
+          <li nz-menu-item>Option 9</li>
+          <li nz-menu-item>Option 10</li>
+          <li nz-menu-item>Option 11</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+</div>

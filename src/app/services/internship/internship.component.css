@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.box{
+  position: relative;
+  max-width: 700px;
+  padding: 30px;
+  background: rgba(120, 103, 194, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  width: 700px;
+  margin-top: 330px;
+  margin-left: 50px;
+}
+.back1 {
+  padding: 0 100px;
+  height: 250vh;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+.box h2{
+
+  padding: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #044463;
+}

@@ -1,0 +1,82 @@
+
+table, th, td{
+  padding: 50px;
+  table-layout: fixed;
+  width: 100%;
+
+}
+.box{
+  position: static;
+  max-width: 400px;
+  padding: 15px;
+  background: rgba(244, 243, 250, 0.966);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
+  width: 350px;
+
+
+}
+.back1 {
+  padding: 0 100px;
+  height: 250vh;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: fit-content;
+}
+.back2 {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 9vw;
+  width:7cm;
+}
+.box1{
+  position: relative;
+  max-width: 400px;
+  padding: 15px;
+  background: rgba(244, 243, 250, 0.966);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
+  width: 350px;
+  margin: auto;
+
+}
+.box2{
+  position: relative;
+  max-width: 400px;
+  padding: 15px;
+  background: rgba(244, 243, 250, 0.966);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
+  width: 350px;
+  margin: auto;
+
+}
+.box3{
+  position: relative;
+  max-width: 400px;
+  padding: 15px;
+  background: rgba(244, 243, 250, 0.966);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
+  width: 350px;
+  margin: auto;
+
+}
+
+.box4{
+  position: relative;
+  max-width: 400px;
+  padding: 15px;
+  background: rgba(244, 243, 250, 0.966);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
+  width: 350px;
+  margin: auto;
+
+}
+
+h2{
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #044463;
+}
+

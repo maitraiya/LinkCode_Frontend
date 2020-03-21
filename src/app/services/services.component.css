@@ -1,0 +1,13 @@
+table, th, td{
+  padding: 15px;
+  table-layout: fixed;
+  border-radius: 5px;
+  text-align: center;
+}
+
+td:hover
+{ background-color:rgba(71, 94, 224, 0.644);
+color:white;
+cursor: pointer;
+}
+

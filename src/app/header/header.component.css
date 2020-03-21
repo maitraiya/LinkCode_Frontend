@@ -1,0 +1,36 @@
+.nav-link{
+    font-weight: bolder;
+    margin-left: 15px ;
+    font-size: 1.3em;
+}
+.brand-xs{
+    max-width: 150px;
+    max-height: 125px;
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+.navbar .nav-link {
+    color: #000000;
+    margin-left:60px ;
+    transition: all .9s;
+}
+.navbar .nav-item :hover{
+    color: red;
+  
+    transition: all .1s;     
+}
+.wrapper {
+    width: 200px;
+    text-align: left;
+    transition: all .9s;
+  }
+.cont{
+    background:#4285F4;
+}
+  
+  button {
+    margin-bottom: 12px;
+  }

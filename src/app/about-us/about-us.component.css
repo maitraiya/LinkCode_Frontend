@@ -1,0 +1,51 @@
+.column-1 :hover, .column-2:hover,.column-3:hover
+{ background-color:rgb(92, 153, 233);
+  border-radius: 25px;
+  color:white;
+}
+
+
+
+.column-1, .column-2,.column-3 {
+  margin-top: 50px;
+}
+
+.container{
+  margin-top: 50px;
+}
+.svg-images{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.container .row .title{
+  text-align: center;
+  margin-bottom: 50px;;
+  background-color:#4285F4;
+}
+.container .row .title h1{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+.container .row .column-1 .cont h3{
+  margin-top:10px;
+}
+
+.container .row .column-2 h3{
+  margin-top:10px;
+}
+
+.container .row .column-3 h3{
+  margin-top:10px;
+}
+.container .row .column-1 .cont p{
+  margin:10px;
+}
+.container .row .column-2 p{
+    margin: 10px;
+}
+.container .row .column-3 p{
+  margin: 10px;
+}
