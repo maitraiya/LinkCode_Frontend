@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path  --aot --prod",
+    "build": "ng build --output-path dist --aot --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
