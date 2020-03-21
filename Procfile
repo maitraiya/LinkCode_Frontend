@@ -1,1 +1,1 @@
-web : npm start --base-ref=dist
+web : node server.js
