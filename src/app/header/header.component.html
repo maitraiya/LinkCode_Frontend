@@ -37,19 +37,37 @@
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{'show':navbarOpen}" >
-          <ul class="navbar-nav mr-auto ">
+          <ul class="navbar-nav">
             <li class="nav-item " >
-              <a class="nav-link"  [routerLink]="['/home']" >Home </a>
+              <a class="nav-link"  [routerLink]="['/home']" (click)="activate('home')" [ngClass]="isHomeactive ? 'active' : 'not-active'" >Home </a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" [routerLink]="['/services']">Services</a>
+              <a nz-dropdown [nzDropdownMenu]="menu" class="nav-link" [routerLink]="['/services']" (click)="activate('services')" [ngClass]="isServicesActive ? 'active' : 'not-active'">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <nz-dropdown-menu #menu="nzDropdownMenu">
+                <ul nz-menu>
+                  <li nz-menu-item>Software Development</li>
+                  <li nz-menu-divider></li>
+                  <li nz-menu-item>Project Consulting</li>
+                  <li nz-menu-divider></li>
+                  <li nz-menu-item>Corporate Training</li>
+                  <li nz-menu-divider></li>
+                  <li nz-menu-item>Technologies</li>
+                  <li nz-menu-divider></li>
+                  <li nz-menu-item>Internship</li>
+                  <li nz-menu-divider></li>
+                  <li nz-menu-item>Corporate Workshop</li>
+                  
+                   
+                  <!-- <li nz-menu-item nzDisabled>3rd menu item（disabled）</li> --> 
+                </ul>
+              </nz-dropdown-menu>
             </li>
             <li class="nav-item ">
-              <a class="nav-link  " [routerLink]="['/contact']">Contact Us</a>
+              <a class="nav-link  " [routerLink]="['/contact']" (click)="activate('contactUs')" [ngClass]="isContactUsActive ? 'active' : 'not-active'">Contact Us</a>
             </li>
       
             <li class="nav-item">
-              <a class="nav-link" [routerLink]="['/about']">About Us</a>
+              <a class="nav-link" [routerLink]="['/about']" (click)="activate('aboutUs')" [ngClass]="isAboutUsActive ? 'active' : 'not-active'">About Us</a>
             </li>
           </ul>
         </div>

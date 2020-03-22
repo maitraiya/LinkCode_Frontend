@@ -1,0 +1,76 @@
+.container-fluid{
+    position: relative;
+
+    width:100%;
+    margin: 0;
+    padding: 0;
+    margin-top:-19px;
+    
+}
+/* .banner{
+   
+    margin: 0;
+    padding: 0;
+    margin-top:-19px;
+
+    
+} */
+
+/*
+
+ */
+ .col-sm-12{
+     margin-top: 40px;
+ }
+ .content {
+    margin: auto;
+    height: 550px;
+    background-color: #c4c4c4;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.content:hover{
+    background-color: #ffffff;
+    
+}
+
+ .content p {
+    /* margin: 30px; */
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+
+.btn{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+.banner-effect{
+    
+    width: 100%;
+
+}
+.banner-img{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    width: 288px;
+    height: 304px;
+}
+
+.our-services h1 {
+        text-align: center;
+}
+.our-services-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+}

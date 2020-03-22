@@ -12,25 +12,29 @@ img{
     max-height: 200px;
     display: block;
 }
-.navbar .nav-link {
+/* .navbar .nav-link {
     color: #000000;
     margin-left:60px ;
     transition: all .9s;
-}
-.navbar .nav-item :hover{
+} */
+/* .navbar .nav-item :hover{
     color: red;
   
     transition: all .1s;     
-}
+} */
 .wrapper {
     width: 200px;
     text-align: left;
     transition: all .9s;
   }
 .cont{
-    background:#4285F4;
+    background :#F5F5F5;
 }
   
   button {
     margin-bottom: 12px;
   }
+
+.active{
+    color: red;
+}
