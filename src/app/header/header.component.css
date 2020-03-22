@@ -28,7 +28,8 @@ img{
     transition: all .9s;
   }
 .cont{
-    background :#F5F5F5;
+    background :#3F3D56;
+
 }
   
   button {
@@ -38,3 +39,10 @@ img{
 .active{
     color: red;
 }
+.container-fluid{
+    margin-left: 0px;
+}
+
+
+/* =================== */
+

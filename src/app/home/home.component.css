@@ -74,3 +74,33 @@
     height: 250px;
     width: 250px;
 }
+
+
+.bg-1{
+    margin-top: 0px;
+    position: relative;
+    
+    /* background-size: auto; */
+    
+    background-image: url(../../assets/home-images/banner-background-final-2.png); 
+  /*   height: 2000px; */
+  /* background-size: cover; */
+    height: 1100px;
+    /* background-size: auto; */
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+}
+.bg-1 h1,h3{
+    
+    color: white;
+   
+    
+   
+}
+
+.header-text{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
