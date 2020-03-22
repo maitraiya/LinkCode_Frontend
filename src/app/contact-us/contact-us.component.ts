@@ -12,6 +12,8 @@ export class ContactUsComponent implements OnInit {
   contactForm: FormGroup;
   isSubmitFailed = false;
   emailPattern = '^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$';
+  latitude: 18.5260265;
+  longitude: 73.84893930;
 
   constructor(
     private fb: FormBuilder,
@@ -25,7 +27,7 @@ export class ContactUsComponent implements OnInit {
   buildForm() {
     this.contactForm = this.fb.group({
       firstName: ['', Validators.required],
-      lastName: ['', Validators.required],
+      // lastName: ['', Validators.required],
       email: ['', [Validators.required, Validators.pattern(this.emailPattern)]],
       subject: ['', Validators.required]
     });
@@ -47,7 +49,7 @@ export class ContactUsComponent implements OnInit {
   getContactInformation() {
     const data = {
       firstName: this.contactForm.get('firstName').value,
-      lastName: this.contactForm.get('lastName').value,
+      // lastName: this.contactForm.get('lastName').value,
       email: this.contactForm.get('email').value,
       subject: this.contactForm.get('subject').value
     };
@@ -58,9 +60,9 @@ export class ContactUsComponent implements OnInit {
     return this.contactForm.get('firstName');
   }
 
-  get lastName() {
-    return this.contactForm.get('lastName');
-  }
+  // get lastName() {
+  //   return this.contactForm.get('lastName');
+  // }
 
   get email() {
     return this.contactForm.get('email');
