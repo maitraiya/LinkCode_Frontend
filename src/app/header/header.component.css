@@ -42,7 +42,10 @@ img{
 .container-fluid{
     margin-left: 0px;
 }
-
+.navbar{
+    background :#3F3D56;
+    margin-bottom: 0px;
+}
 
 /* =================== */
 
