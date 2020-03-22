@@ -11,11 +11,12 @@
 
 .bg-1{
   margin-top: 0px;
+
   position: relative;
   background-position: top;
   background-image: url(../../assets/images/About-Us-Banner-Image.png);
   background-position:top,center;
-  height: 1100px;
+  height: 900px;
   display: block;
 
   margin-left: auto;
@@ -27,7 +28,7 @@
 .col-sm-12{
      margin-top: 40px;
  }
-.bg-1 h1,h3{
+.bg-1 h1,h4{
 
   color: white;
 }
@@ -36,8 +37,9 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-.bg-1 h3{
+.bg-1 h4{
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .header-text{
@@ -89,9 +91,9 @@
   margin-top: 50px;
 }
 
-/* .container{
-  margin-top: 75px;
-} */
+.container{
+  margin-top: 0px;
+}
 .svg-images{
   max-width: 100%;
   max-height: 100%;
