@@ -40,6 +40,7 @@ export class ContactUsComponent implements OnInit {
   addContact() {
     const contactDetail = this.getContactInformation();
     this.contactService.addContact(contactDetail).subscribe((response: any) => {
+      this.contactForm.reset();
       alert('Data sent successfully');
     }, (error: any) => {
       alert('Data not sent successfully');
