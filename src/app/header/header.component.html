@@ -45,17 +45,17 @@
               <a nz-dropdown [nzDropdownMenu]="menu" class="nav-link" [routerLink]="['/services']" (click)="activate('services')" [ngClass]="isServicesActive ? 'active' : 'not-active'">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
               <nz-dropdown-menu #menu="nzDropdownMenu">
                 <ul nz-menu>
-                  <li nz-menu-item>Software Development</li>
+                  <li nz-menu-item ><a [routerLink]="['/services/dashboard/software-development']"> Software Development</a></li>
                   <li nz-menu-divider></li>
-                  <li nz-menu-item>Project Consulting</li>
+                  <li nz-menu-item><a [routerLink]="['/services/dashboard/project-consulting']"> Project Consulting</a></li>
                   <li nz-menu-divider></li>
-                  <li nz-menu-item>Corporate Training</li>
+                  <li nz-menu-item><a [routerLink]="['/services/dashboard/corporate-training']"> Corporate Training</a></li>
                   <li nz-menu-divider></li>
-                  <li nz-menu-item>Technologies</li>
+                  <li nz-menu-item><a [routerLink]="['/services/dashboard/technology']"> Technologies</a></li>
                   <li nz-menu-divider></li>
-                  <li nz-menu-item>Internship</li>
+                  <li nz-menu-item><a [routerLink]="['/services/dashboard/internship']">Internship</a></li>
                   <li nz-menu-divider></li>
-                  <li nz-menu-item>Corporate Workshop</li>
+                  <li nz-menu-item><a [routerLink]="['/services/dashboard/corporate-workshop']"> Corporate Workshops</a></li>
                   
                    
                   <!-- <li nz-menu-item nzDisabled>3rd menu item（disabled）</li> --> 
