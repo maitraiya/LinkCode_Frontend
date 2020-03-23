@@ -35,7 +35,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NgZorroAntdModule
+    NgZorroAntdModule,
+
   ],
   providers: [ { provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent]

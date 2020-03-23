@@ -1,15 +1,22 @@
 .background{
-  background-color: rgb(139, 138, 138);
-  /* margin-left: 227px;
+  background-color: inherit;
+   margin-left: 210px;
   /* height: 871px; */
-  width: 526px;
+  width: 1000px;
   border-radius: 10px;
-  margin: auto;
+  border: 2px solid;
+  border-color:  rgb(139, 138, 138);
+  /* margin: auto; */
+  box-shadow:  2px 2px 2px rgba(139, 138, 138, 0.801);
+  align-self: center;
   margin-top: 30px;
+  /* margin-left: 30px; */
 }
+
 
 input{
   background: whitesmoke;
+  width: 350px;
 }
 
 .back1 {
@@ -18,12 +25,12 @@ input{
 }
 
 .contact{
-  color: white;
+  color: rgb(23, 23, 112);
   text-align: center;
-  font-family: cursive;
+  /* font-family: cursive; */
   font-size: x-large;
-  text-decoration-line: underline;
-  text-decoration-style: double;
+  /* text-decoration-line: underline;
+  text-decoration-style: double; */
 }
 
 .form-group{
@@ -31,16 +38,23 @@ input{
 }
 
 label{
-  font-family: cursive;
-  color: white;
+  /* font-family: cursive; */
+  color: rgb(25, 25, 80);
   font-size: larger;
 }
 
 button
 {
   background-color: rgb(245, 16, 48);
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: x-large;
-    width: 180px;
-    margin: auto;
+    text-align: center;
+    /* width: 180px; */
+    height: 60px;
+    /* margin: auto; */
+}
+
+textarea
+{
+  height: 200px;
 }
