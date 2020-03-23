@@ -2,10 +2,9 @@
     /* display: block; */
     color: #d3d3d3;
     width:100%;
-    margin: 0;
+    margin:0px;
     padding-bottom: 0;
     
-    border: 1px solid red;
 }
 
 
@@ -98,7 +97,7 @@ a:hover{
   
     background-repeat: no-repeat;
     margin-top: 0px;
-    border: 1px solid red;
+   
     margin-bottom: 0px;
     background-position: bottom; 
     margin-left: auto;
