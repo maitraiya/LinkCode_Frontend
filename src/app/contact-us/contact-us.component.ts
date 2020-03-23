@@ -91,7 +91,12 @@ export class ContactUsComponent implements OnInit {
     this.notification.create(
       type,
       title,
-      message
+      message,
+      {
+        nzStyle:{
+          marginTop:'150px'
+        }
+      }
     );
   }
 }
