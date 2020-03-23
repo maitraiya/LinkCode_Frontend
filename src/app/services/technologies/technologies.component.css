@@ -1,4 +1,3 @@
-
 table, th, td{
   padding: 50px;
   table-layout: fixed;
@@ -10,7 +9,6 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
 
 
@@ -35,7 +33,6 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
 
@@ -45,7 +42,6 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
 
@@ -55,7 +51,6 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
 
@@ -66,7 +61,6 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
 
@@ -79,4 +73,3 @@ h2{
   text-transform: uppercase;
   color: #044463;
 }
-
