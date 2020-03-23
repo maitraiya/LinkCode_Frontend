@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgZorroAntdModule, NZ_I18N, en_US } from 'ng-zorro-antd';
+import { NzAlertModule } from 'ng-zorro-antd/alert';
+import { NzNotificationModule } from 'ng-zorro-antd/notification';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
@@ -36,6 +38,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     HttpClientModule,
     BrowserAnimationsModule,
     NgZorroAntdModule,
+    NzAlertModule,
+    NzNotificationModule
 
   ],
   providers: [ { provide: NZ_I18N, useValue: en_US }],
