@@ -32,6 +32,24 @@ body{
   margin-left: -2%;
 }
 
+.box3:hover{
+  background-color:rgb(92, 153, 233);
+  border-radius: 25px;
+  color:white;
+}
+
+.box1:hover{
+  background-color:rgb(92, 153, 233);
+  border-radius: 25px;
+  color:white;
+}
+
+.box:hover{
+  background-color:rgb(92, 153, 233);
+  border-radius: 25px;
+  color:white;
+}
+
 .back1 {
   padding: 0 100px;
   top: -5%;
