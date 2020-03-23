@@ -43,15 +43,13 @@ body{
 }
 .back2 {
   padding: 0 100px;
-  top: -5%;
+  top: 25%;
   height: 200vh;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   background-repeat: no-repeat;
-  height: 680px;
+  height: 300px;
   background-origin: initial;
-  max-width: 100%;
-  max-height: 100%;
 
 }
 

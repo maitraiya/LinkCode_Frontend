@@ -6,8 +6,12 @@ table, th, td{
 }
 
 td:hover
-{ background-color:rgba(71, 94, 224, 0.644);
-color:white;
-cursor: pointer;
+{ 
+  background-color:darkblue;
+  color:white;
+}
+
+h4:hover{
+  color:white
 }
 
