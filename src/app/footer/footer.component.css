@@ -1,5 +1,5 @@
 .footer{
-    /* display: block; */
+    
     color: #d3d3d3;
     width:100%;
     margin:0px;
@@ -96,14 +96,14 @@ a:hover{
     background-image: url(../../assets/images/banner-footer-final.png); 
   
     background-repeat: no-repeat;
-    margin-top: 0px;
+    padding-top: 300px;
    
     margin-bottom: 0px;
     background-position: bottom; 
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding: 230px 0 0;
+    
 }
 
 .bg-small{
@@ -111,8 +111,8 @@ a:hover{
     background-image: url(../../assets/images/banner-for-mobile.png); 
   
     background-repeat: no-repeat;
-    margin-top: 0px;
-    border: 1px solid red;
+  
+   
     margin-bottom: 0px;
     background-position: bottom; 
     margin-left: auto;
