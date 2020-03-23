@@ -36,7 +36,7 @@ export class HeaderComponent implements OnInit {
     }
       else if(parm == 'services')
     {
-      console.log(parm)
+      console.log(parm);
       this.isServicesActive=true;
     }
       else if (parm == 'contactUs'){
