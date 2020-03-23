@@ -37,8 +37,8 @@
     color: white;
     height: 41px;
     padding-top: 5px;
-    margin-top: 50px;
-    margin-right: 5px;
+    margin-top: 30px;
+    /* margin-right: 5px;  */
     text-align: center;
     display: inline-block;
     font-size: 1.3em;
@@ -49,21 +49,18 @@
 a{ 
     text-align: left;
     display: block;
-    margin-bottom:10px ;
+    margin-bottom:5px ;
     font-size: 1.2em;
     color: white;
     transition: all .3s;
     margin-left: 20px;
 }
 
- .contact-btn{
-   margin-left: 140px;
-}
 
-.btn-big{
-    padding: .7rem 1.3rem;
-    line-height: 1.3rem;
-
+.btn{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .footer-content .links ul a :hover{
@@ -88,17 +85,31 @@ a:hover{
 }
 
 .footer-distributed{
-    /* border : 1px solid red; */
+   
     width: 100%;
-    /* padding-bottom: 0px; */
     padding: 50px 50px 60px 50px;
     margin-top: 80px;
-    /* background-color: #2c292f; */
+    
 }
 /* FOR BACKGROUND */
 .bg-1{
    
     background-image: url(../../assets/images/banner-footer-final.png); 
+  
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    border: 1px solid red;
+    margin-bottom: 0px;
+    background-position: bottom; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 230px 0 0;
+}
+
+.bg-small{
+
+    background-image: url(../../assets/images/banner-for-mobile.png); 
   
     background-repeat: no-repeat;
     margin-top: 0px;
