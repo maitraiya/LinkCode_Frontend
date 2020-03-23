@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ContactUsService } from './services/contact-us/contact-us.service';
+import { NzNotificationService } from 'ng-zorro-antd/notification';
+
 
 @Component({
   selector: 'app-contact-us',
@@ -14,10 +16,14 @@ export class ContactUsComponent implements OnInit {
   emailPattern = '^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$';
   latitude: 18.5260265;
   longitude: 73.84893930;
+  //alertnew: boolean ;
+  //messageData = '';
+  //notification: NzNotificationService;
 
   constructor(
     private fb: FormBuilder,
-    private contactService: ContactUsService
+    private contactService: ContactUsService,
+    private notification: NzNotificationService
   ) { }
 
   ngOnInit() {
@@ -41,9 +47,16 @@ export class ContactUsComponent implements OnInit {
     const contactDetail = this.getContactInformation();
     this.contactService.addContact(contactDetail).subscribe((response: any) => {
       this.contactForm.reset();
-      alert('Data sent successfully');
+      //alert('Data sent successfully');
+      // this.alertnew = true;
+      // this.messageData = 'Details sent successfully';
+      this.createNotification('success', 'Success', 'Data sent successfully');
+
     }, (error: any) => {
-      alert('Data not sent successfully');
+      //alert('Data not sent successfully');
+      // this.alertnew = false;
+      // this.messageData = 'Details not sent successfully';
+      this.createNotification('error', 'Error', 'Data not sent successfully');
     });
   }
 
@@ -73,4 +86,12 @@ export class ContactUsComponent implements OnInit {
     return this.contactForm.get('subject');
   }
 
+
+  createNotification(type: string, title: string, message: string): void {
+    this.notification.create(
+      type,
+      title,
+      message
+    );
+  }
 }

@@ -11,9 +11,9 @@ padding-top: 70px;">
         <div class="form-group">
           <label>First Name</label>
           <input mdbInput type="text" class="form-control" formControlName="firstName" placeholder="Enter First Name Here" required autofocus>
-          <div class="text-danger" *ngIf=" firstName.invalid && (firstName.dirty || firstName.touched)" style="margin-left: 10px; color: rgb(255, 15, 63);">
-            <b> Please enter First Name </b>
-          </div>
+            <div class="text-danger" *ngIf=" firstName.invalid && (firstName.dirty || firstName.touched)" style="margin-left: 10px; color: rgb(255, 15, 63);">
+              <b> Please enter First Name </b>
+            </div>
         </div>
         <!-- <div class="form-group">
           <label>Last Name</label>
@@ -42,6 +42,8 @@ padding-top: 70px;">
           </div>
         </div>
         <button [disabled]="contactForm.invalid" class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" (click)="onSubmit()">Submit</button>
+        <!-- <nz-alert *ngIf="alertnew" nzType="success" nzMessage="Success" nzDescription="messageData" nzShowIcon></nz-alert>
+        <nz-alert *ngIf="!alertnew" nzType="error" nzMessage="error" nzDescription="messageData" nzShowIcon></nz-alert> -->
       </form>
     </div>
   </div>
