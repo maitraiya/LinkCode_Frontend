@@ -1,4 +1,3 @@
-
 table, th, td{
   padding: 50px;
   table-layout: fixed;
@@ -10,9 +9,8 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
-
+  border-radius:10px;
 
 }
 .back1 {
@@ -22,6 +20,7 @@ table, th, td{
   align-items: center;
   background-repeat: no-repeat;
   height: fit-content;
+  
 }
 .back2 {
   display: flex;
@@ -30,24 +29,43 @@ table, th, td{
   height: 9vw;
   width:7cm;
 }
+
+.box:hover{
+  background-color: lightblue;
+}
+
+.box1:hover{
+  background-color: lightblue;
+}
+
+.box2:hover{
+  background-color: lightblue;
+}
+.box3:hover{
+  background-color: lightblue;
+}
+
+.box4:hover{
+  background-color: lightblue;
+}
+
 .box1{
   position: relative;
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
-
+  border-radius:10px;
 }
 .box2{
   position: relative;
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
+  border-radius:10px;
 
 }
 .box3{
@@ -55,9 +73,9 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
+  border-radius:10px;
 
 }
 
@@ -66,9 +84,9 @@ table, th, td{
   max-width: 400px;
   padding: 15px;
   background: rgba(244, 243, 250, 0.966);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.541);
   width: 350px;
   margin: auto;
+  border-radius:10px;
 
 }
 
@@ -79,4 +97,3 @@ h2{
   text-transform: uppercase;
   color: #044463;
 }
-

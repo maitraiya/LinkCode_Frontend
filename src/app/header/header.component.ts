@@ -24,7 +24,37 @@ export class HeaderComponent implements OnInit {
   }
 
   navbarOpen =false;
-  
+  isHomeactive= false;
+  isServicesActive =false;
+  isContactUsActive =false;
+  isAboutUsActive= false;
+  activate(parm){
+    this.clearFlags()
+    if (parm =='home') {
+      console.log(parm)
+      this.isHomeactive=true;
+    }
+      else if(parm == 'services')
+    {
+      console.log(parm);
+      this.isServicesActive=true;
+    }
+      else if (parm == 'contactUs'){
+      console.log(parm)
+      this.isContactUsActive=true;
+    }
+      else if (parm == 'aboutUs'){
+      console.log(parm)
+      this.isAboutUsActive=true;
+    }
+  }
+  clearFlags(){
+    this.isHomeactive= false;
+    this.isServicesActive =false;
+    this.isContactUsActive =false;
+    this.isAboutUsActive= false;
+  }
+
   toggleNavbar(){
   this.navbarOpen =!this.navbarOpen;
   }

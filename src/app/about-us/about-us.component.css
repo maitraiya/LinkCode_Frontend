@@ -1,3 +1,84 @@
+/*Banner Of About Section*/
+.container-fluid{
+  position: relative;
+
+  width:100%;
+  margin: 0;
+  padding: 0;
+  margin-top:0px;
+
+}
+
+.bg-1{
+  margin-top: 0px;
+
+  position: relative;
+  background-position: top;
+  background-image: url(../../assets/images/About-Us-Banner-Image.png);
+  background-position:top,center;
+  height: 900px;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  background-repeat: no-repeat;
+}
+
+.col-sm-12{
+     margin-top: 40px;
+ }
+.bg-1 h1,h4{
+
+  color: white;
+}
+
+.bg-1 h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-1 h4{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header-text{
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 150px;
+}
+
+/*Banner Button Starts*/
+.gradient-button{
+  position: absolute;
+    top: 300px;
+    right: 120px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.gradient-button:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 8px 10px 12px;
+  color: #a1e6e3;
+}
+
+.gradient-button-1 {
+  background-image: linear-gradient(to right, #3F3D56 25%, #0183FC 100%)
+}
+/*Banner Button Ends*/
+
+/*Banner About Us Ends*/
+
 .column-1 :hover, .column-2:hover,.column-3:hover
 { background-color:rgb(92, 153, 233);
   border-radius: 25px;
@@ -11,7 +92,7 @@
 }
 
 .container{
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .svg-images{
   max-width: 100%;
