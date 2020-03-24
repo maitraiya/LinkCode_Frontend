@@ -7,18 +7,6 @@
     margin-top:-19px;
     
 }
-/* .banner{
-   
-    margin: 0;
-    padding: 0;
-    margin-top:-19px;
-
-    
-} */
-
-/*
-
- */
  .col-sm-12{
      margin-top: 40px;
  }
@@ -42,6 +30,7 @@
 }
 
 .content h3 {
+    color: black;
     text-align: center;
 }
 
@@ -82,7 +71,7 @@
     background-position: top;
     background-image: url(../../assets/home-images/banner-background-final4.png); 
     background-position:top,center;
-    height: 1100px;
+    height: 800px;
     display: block;
     
     margin-left: auto;
@@ -90,7 +79,7 @@
     
     background-repeat: no-repeat;
 }
-.bg-1 h1,h3{
+.bg-1 h2,h4{
     
     color: white;
    
@@ -101,6 +90,6 @@
 .header-text{
     color: white;
     position: absolute;
-    top: 350px;
-    left: 150px;
+    top: 250px;
+    
 }
