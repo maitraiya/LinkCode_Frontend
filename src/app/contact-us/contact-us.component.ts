@@ -32,10 +32,10 @@ export class ContactUsComponent implements OnInit {
 
   buildForm() {
     this.contactForm = this.fb.group({
-      firstName: ['', Validators.required],
+      firstName: ['', [Validators.required, Validators.pattern('^[a-zA-Z]+( [a-zA-Z_]+)*$') ]],
       // lastName: ['', Validators.required],
       email: ['', [Validators.required, Validators.pattern(this.emailPattern)]],
-      subject: ['', Validators.required]
+      subject: ['', [Validators.required, Validators.pattern('^[a-zA-Z0-9_]+( [a-zA-Z0-9\\n]+\.)*$') ]]
     });
   }
 
@@ -93,8 +93,8 @@ export class ContactUsComponent implements OnInit {
       title,
       message,
       {
-        nzStyle:{
-          marginTop:'150px'
+        nzStyle: {
+          marginTop: '60px'
         }
       }
     );

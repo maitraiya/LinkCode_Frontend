@@ -9,7 +9,7 @@ body{
   background: white;
   width: 660%;
   margin: auto;
-  margin-top: 25%;
+  margin-top: 35%;
   margin-left: -2%;
 }
 .box1{
@@ -59,16 +59,13 @@ body{
   background-repeat: no-repeat;
   height: 1000px;
 }
+
 .back2 {
-  padding: 0 100px;
-  top: -5%;
-  height: 200vh;
+  padding:10px;
   display: flex;
-  align-items: center;
   background-repeat: no-repeat;
-  height: 680px;
-  background-origin: initial;
-  
+  height: 400px;
+  vertical-align: 200px;
 }
 
 h2{

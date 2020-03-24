@@ -20,7 +20,18 @@
   margin: 0px;
 }
 
-
+.fname
+{
+  width: 200px;
+  height: 25px;
+  border: 1px solid rgba(241, 15, 63, 0.45);
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-bottom: 1px;
+  margin-top: 1px;
+  background-color: rgba(241, 115, 128, 0.2 );
+  color: rgb(255, 15, 63);
+}
 
 input{
   background: whitesmoke;
