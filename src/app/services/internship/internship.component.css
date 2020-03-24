@@ -1,30 +1,85 @@
-body{
+h2 {
+  text-align: justify;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #130c52;
+}
+
+/* Banner Of About Section start*/
+.container-fluid {
+  position: absolute;
   margin: 0;
   padding: 0;
+  margin-top: 0px;
+  width: 100%;
 }
 
-.box{
+.bg-1 {
+  margin-top: 0px;
+  width: 100%;
   position: relative;
-  max-width: 700px;
-  padding: 30px;
-  background: rgba(120, 103, 194, 0.2);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-  width: 700px;
-  margin-top: 330px;
-  margin-left: 50px;
-}
-.back1 {
-  padding: 0 100px;
-  height: 250vh;
-  display: flex;
-  align-items: center;
-  background-repeat: no-repeat;
-  height: 1000px;
-}
-.box h2{
+  background-position: top;
+  background-position: top, center;
+  height: fit-content;
+  display: block;
+  background-image: url(../../../assets/images/Group_2.svg);
+  margin: auto;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
 
-  padding: 0;
-  font-size: 48px;
-  text-transform: uppercase;
-  color: #044463;
+  background-repeat: no-repeat;
+}
+
+/*Banner Of About Section End*/
+
+.component_name1 {
+  position: relative;
+  margin-left: 3.5rem;
+  margin-top: 22rem;
+}
+
+.component_name1 .content {
+  position: relative;
+  width: 38rem;
+  text-align: justify;
+}
+
+h4 p {
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.component_name2 .content {
+  position: relative;
+  margin-left: 35rem;
+  width: 35rem;
+  text-align: justify;
+}
+
+.component_name2 h2 {
+  position: relative;
+  margin-top: 7rem;
+  margin-left: 39rem;
+}
+
+.component_name3 .content {
+  position: relative;
+  margin-left: 60rem;
+  width: 35rem;
+  text-align: justify;
+  padding-right: 3rem;
+}
+
+.component_name3 h2 {
+  position: relative;
+  margin-top: 7rem;
+  margin-left: 64rem;
+}
+
+.image {
+  position: relative;
+  padding: 3rem;
+  height: 400px;
+  width: 5 00px;
 }
