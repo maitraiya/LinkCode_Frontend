@@ -46,6 +46,27 @@ img{
     background :#3F3D56;
     margin-bottom: 0px;
 }
+.not-active{
+    color: #4c8bf5;
+}
+
+.dropdown-menu-home{
+    margin-top: 15px;
+    background-color: #4c8bf5;
+    
+}
+
+.dropdown-menu-home .a{
+    color: #4c8bf5;
+    
+}
+
+.dropdown-menu-home.a:hover{
+    background-color: #000000;
+}
+.dropdown-button-services {
+    color: #4c8bf5;
+}
 
 /* =================== */
 
