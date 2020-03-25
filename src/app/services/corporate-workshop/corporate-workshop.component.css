@@ -42,13 +42,12 @@ body{
     height: 1000px;
   }
   .back2 {
-    padding: 0 100px;
     top: -5%;
     height: 200vh;
     display: flex;
     align-items: baseline;
     background-repeat: no-repeat;
-    height: 680px;
+    height: 500px;
   }
   
   .box3:hover{
@@ -76,5 +75,9 @@ body{
     font-size: 30px;
     text-transform: uppercase;
     color: #130c52;
+  }
+
+  h4:hover{
+    color:deeppink;
   }
   

@@ -1,15 +1,15 @@
 body{
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 
 .box{
   position: relative;
   padding: 1px;
   background: white;
-  width: 660%;
+  width: 600%;
   margin: auto;
-  margin-top: 25%;
+  margin-top: 30%;
   margin-left: -2%;
 }
 .box1{
@@ -19,8 +19,7 @@ body{
   width: 560%;
   margin: auto;
   margin-top: 50%;
-  margin-left: 170px;
-  font-family: sans-serif;
+  margin-left: 100px;
 }
 .box3{
 
@@ -30,7 +29,8 @@ body{
   width: 560%;
   margin: auto;
   margin-top: 80%;
-  margin-left: -2%;
+  margin-left: 5%;
+  padding-bottom: 5px;
 }
 
 .back1 {
@@ -51,7 +51,7 @@ body{
   background-repeat: no-repeat;
   height: 300px;
   background-origin: initial;
-
+  padding-bottom: 0px;
 }
 
 .box3:hover{
@@ -79,4 +79,8 @@ h2{
   font-size: 30px;
   text-transform: uppercase;
   color: #130c52;
+}
+
+h5:hover{
+  color:deeppink;
 }
