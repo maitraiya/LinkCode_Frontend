@@ -46,14 +46,19 @@
   color: white;
   position: absolute;
   top: 50px;
-  right: 150px;
+  right: 40px;
+}
+.header-text h1{
+
+}
+.header-text h1{
+  
 }
 
 /*Banner Button Starts*/
 .gradient-button{
   position: absolute;
-    top: 300px;
-    right: 120px;
+  margin-top: 20px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
@@ -130,3 +135,5 @@
 .container .row .column-3 p{
   margin: 10px;
 }
+
+
