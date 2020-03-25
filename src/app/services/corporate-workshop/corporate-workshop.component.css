@@ -1,87 +1,68 @@
-body{
-    margin: 0;
-    padding: 0;
-  }
+/* For Bannaer */
+
+.bg-1{
+  margin-top: 0px;
+  position: relative;
+  background-position: top;
+  background-image: url(../../../assets/images/services-banner.png); 
+  background-position:top,center;
+  height: 800px;
+  display: block;
   
-  .box{
-    position: relative;
-    padding: 1px;
-    background: white;
-    width: 660%;
-    margin: auto;
-    margin-top: 25%;
-    margin-left: -2%;
-  }
-  .box1{
-    position: relative;
-    padding: 20px;
-    background: white;
-    width: 560%;
-    margin: auto;
-    margin-top: 40%;
-    margin-left: 170px;
-  }
-  .box3{
+  margin-left: auto;
+  margin-right: auto;
   
-    position: relative;
-    padding: 20px;
-    background: white;
-    width: 560%;
-    margin: auto;
-    margin-top: 70%;
-    margin-left: 200px;
-  }
+  background-repeat: no-repeat;
+}
+.bg-1 h2,h4{
   
-  .back1 {
-    padding: 0 100px;
-    top: -5%;
-    height: 250vh;
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    height: 1000px;
-  }
-  .back2 {
-    top: -5%;
-    height: 200vh;
-    display: flex;
-    align-items: baseline;
-    background-repeat: no-repeat;
-    height: 500px;
-  }
+  color: white;
+ 
+}
+
+.header-text{
+  color: white;
+  left: -0px;
+  position: absolute;
+  top: 20px;
   
-  .box3:hover{
-    background-color:rgb(92, 153, 233);
-    border-radius: 25px;
-    color:white;
-  }
-  
-  .box1:hover{
-    background-color:rgb(92, 153, 233);
-    border-radius: 25px;
-    color:white;
-  }
-  
-  .box:hover{
-    background-color:rgb(92, 153, 233);
-    border-radius: 25px;
-    color:white;
-  }
-  
-  
-  h2{
+}
+
+
+
+/* Banner End */
+
+
+.image-cropped{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.column-1 .cont h3{
+  margin-top:10px;
+}
+
+.column-1 .cont h5{
+  margin:10px;
+}
+
+.column-1 :hover
+{ background-color:rgb(92, 153, 233);
+  border-radius: 25px;
+  color:white;
+}
+
+.column-1{
+  margin-top: 50px;
+}
+
+  /* h2{
     text-align: center;
     padding: 0;
     font-size: 30px;
     text-transform: uppercase;
     color: #130c52;
-  }
+  } */
 
-  h4:hover{
-    color:#3FE0D0;
-  }
-  
-  h4 p {
-    position: relative;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+ 
