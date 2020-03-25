@@ -1,4 +1,4 @@
-body{
+/* body{
   margin: 0;
   padding: 0px;
 }
@@ -88,4 +88,61 @@ h5:hover{
 h5 p {
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+
+
+/* Banner starts */
+.bg-1{
+  margin-top: 0px;
+  position: relative;
+  background-position: top;
+  background-image: url(../../../assets/images/services-banner.png); 
+  background-position:top,center;
+  height: 800px;
+  display: block;
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-repeat: no-repeat;
 }
+.bg-1 h2,h4{
+  
+  color: white;
+ 
+}
+
+.header-text{
+  color: white;
+  left: -0px;
+  position: absolute;
+  top: 20px;
+  
+}
+
+
+
+/* Banner End */
+
+
+.image-cropped{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+
+.column-1 :hover
+{ background-color:rgb(92, 153, 233);
+  border-radius: 25px;
+  color:white;
+}
+.cont h6 {
+  padding: 30px;
+}
+
+.cont h3 {
+  padding: 30px;
+}
+
