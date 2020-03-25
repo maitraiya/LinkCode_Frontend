@@ -14,12 +14,13 @@ body{
 }
 .box1{
   position: relative;
-  padding: 20px;
+  padding: 10px;
   background: white;
   width: 560%;
   margin: auto;
   margin-top: 50%;
   margin-left: 170px;
+  font-family: sans-serif;
 }
 .box3{
 
