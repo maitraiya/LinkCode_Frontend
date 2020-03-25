@@ -1,4 +1,5 @@
 .background{
+
   background-color: inherit;
    /* margin-left: 210px; */
   /* height: 871px; */
@@ -20,11 +21,22 @@
   margin: 0px;
 }
 
-
+.fname
+{
+  width: 60%;
+  height: 25px;
+  border: 1px solid rgba(241, 15, 63, 0.45);
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-bottom: 1px;
+  margin-top: 1px;
+  background-color: rgba(241, 115, 128, 0.2 );
+  color: rgb(255, 15, 63);
+}
 
 input{
   background: whitesmoke;
-  width: 350px;
+  width: 90%;
 }
 
 .back1 {
@@ -43,6 +55,8 @@ input{
 
 .form-group{
   margin-bottom: 2rem;
+  /* border: 1px solid black; */
+  margin-top: 20px;
 }
 
 label{
@@ -59,10 +73,12 @@ button
     text-align: center;
     /* width: 180px; */
     height: 60px;
+    width: 90%;
     /* margin: auto; */
 }
 
 textarea
 {
+  width: 90%;
   height: 200px;
 }
