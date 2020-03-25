@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
   }
-  
+
   .box{
     position: relative;
     padding: 1px;
@@ -22,7 +22,7 @@ body{
     margin-left: 170px;
   }
   .box3{
-  
+
     position: relative;
     padding: 20px;
     background: white;
@@ -31,7 +31,7 @@ body{
     margin-top: 70%;
     margin-left: 200px;
   }
-  
+
   .back1 {
     padding: 0 100px;
     top: -5%;
@@ -49,26 +49,26 @@ body{
     background-repeat: no-repeat;
     height: 500px;
   }
-  
+
   .box3:hover{
     background-color:rgb(92, 153, 233);
     border-radius: 25px;
     color:white;
   }
-  
+
   .box1:hover{
     background-color:rgb(92, 153, 233);
     border-radius: 25px;
     color:white;
   }
-  
+
   .box:hover{
     background-color:rgb(92, 153, 233);
     border-radius: 25px;
     color:white;
   }
-  
-  
+
+
   h2{
     text-align: center;
     padding: 0;
@@ -78,9 +78,9 @@ body{
   }
 
   h4:hover{
-    color:#3FE0D0;
+    color:rgb(232, 248, 247);
   }
-  
+
   h4 p {
     position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
