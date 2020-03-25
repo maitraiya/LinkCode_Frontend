@@ -9,7 +9,7 @@ body{
   background: white;
   width: 660%;
   margin: auto;
-  margin-top: 35%;
+  margin-top: 30%;
   margin-left: -2%;
 }
 .box1{
@@ -18,8 +18,8 @@ body{
   background: white;
   width: 560%;
   margin: auto;
-  margin-top: 50%;
-  margin-left: 170px;
+  margin-top: 45%;
+  margin-left: 120px;
 }
 .box3{
 
@@ -29,7 +29,7 @@ body{
   width: 560%;
   margin: auto;
   margin-top: 80%;
-  margin-left: -2%;
+  margin-left: 5%;
 }
 
 .box3:hover{
@@ -65,7 +65,7 @@ body{
   display: flex;
   background-repeat: no-repeat;
   height: 400px;
-  vertical-align: 200px;
+  padding-bottom: 0px;
 }
 
 h2{
@@ -74,4 +74,8 @@ h2{
   font-size: 30px;
   text-transform: uppercase;
   color: #130c52;
+}
+
+h4:hover{
+  color: #3FE0D0;
 }
