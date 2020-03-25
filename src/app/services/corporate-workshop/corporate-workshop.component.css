@@ -38,13 +38,6 @@
   display: block;
 }
 
-.column-1 .cont h3{
-  margin-top:10px;
-}
-
-.column-1 .cont h5{
-  margin:10px;
-}
 
 .column-1 :hover
 { background-color:rgb(92, 153, 233);
@@ -52,7 +45,13 @@
   color:white;
 }
 
-.column-1{
-  margin-top: 50px;
+
+
+.cont h6 {
+  padding: 30px;
+}
+
+.cont h3 {
+  padding: 30px;
 }
 
